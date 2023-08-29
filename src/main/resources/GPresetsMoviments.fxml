@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.CheckBox?>
+<?import javafx.scene.control.ListView?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane prefHeight="275.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="GPresetsMoviments">
+   <children>
+      <Button fx:id="RecMoviments" layoutX="47.0" layoutY="55.0" mnemonicParsing="false" onAction="#handleRecMoviments" prefHeight="61.0" prefWidth="109.0" text="Rec" />
+      <Button fx:id="StopRecMoviments" layoutX="179.0" layoutY="55.0" mnemonicParsing="false" onAction="#handleStopRecMoviments" prefHeight="61.0" prefWidth="109.0" text="Stop" />
+      <Button fx:id="ImportPreset" layoutX="47.0" layoutY="135.0" mnemonicParsing="false" onAction="#handleImportPreset" prefHeight="53.0" prefWidth="109.0" text="Import" />
+      <Button fx:id="PlayPreset" layoutX="179.0" layoutY="135.0" mnemonicParsing="false" onAction="#handlePlayPreset" prefHeight="53.0" prefWidth="109.0" text="Play" />
+      <ListView fx:id="ListPresets" layoutX="329.0" layoutY="55.0" prefHeight="200.0" prefWidth="200.0" />
+      <CheckBox fx:id="delayCheckBox" layoutX="47.0" layoutY="211.0" mnemonicParsing="false" text="Delay" />
+      <Button fx:id="reloadpresets" layoutX="179.0" layoutY="208.0" mnemonicParsing="false" onAction="#handlereloadpresets" prefHeight="41.0" prefWidth="109.0" text="Reload Presets" />
+   </children>
+</AnchorPane>
